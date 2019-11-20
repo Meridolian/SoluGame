@@ -1,0 +1,13 @@
+<StackLayout class="container">
+    <label text="Pseudo"></label>
+    <TextField [(ngModel)]="username"></TextField>
+    <label text="E-mail"></label>
+    <TextField [(ngModel)]="email"></TextField>
+    <label text="Mot de passe"></label>
+    <TextField [(ngModel)]="password"></TextField>
+    <label text="Date de naissance"></label>
+    <DatePicker year="2019" month="1" day="1" [minDate]="minDate" [maxDate]="maxDate" verticalAlignment="center"
+        [(ngModel)]="birthday" (dateChange)="test()"></DatePicker>
+    <Button text="Inscription" (tap)="onSignUp()"></Button>
+    <label style="color: red" text="{{errorMessage}}" *ngIf="errorMessage !== '' && errorMessage !== undefined"></label>
+</StackLayout>

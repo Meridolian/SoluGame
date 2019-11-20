@@ -1,0 +1,8 @@
+<StackLayout class="container">
+    <label text="Pseudo"></label>
+    <TextField [(ngModel)]="username"></TextField>
+    <label text="Mot de passe"></label>
+    <TextField [(ngModel)]="password"></TextField>
+    <Button text="Connexion" (tap)="onSignIn()"></Button>
+    <label style="color: red" text="{{errorMessage}}" *ngIf="errorMessage !== '' && errorMessage !== undefined"></label>
+</StackLayout>

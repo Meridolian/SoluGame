@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "657900547417",
+    "firebase_url": "https://solugame-e5ac2.firebaseio.com",
+    "project_id": "solugame-e5ac2",
+    "storage_bucket": "solugame-e5ac2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657900547417:android:748221deb346f92445b048",
+        "android_client_info": {
+          "package_name": "org.nativescript.SoluGame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657900547417-nntlo6adsrs5dn7019m0r4aeosb23pn2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLAY__emc1RIX2VN-E5a7dGBPm7p4flK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657900547417-nntlo6adsrs5dn7019m0r4aeosb23pn2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "657900547417-dvbnqm3pv26lkl2l9hb2qgb5d3u31eop.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.nativescript.SoluGame"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

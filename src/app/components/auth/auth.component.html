@@ -1,0 +1,12 @@
+<StackLayout class="container" id="authContainer">
+    <StackLayout id="signButtons">
+        <Button text="Connexion" class="btn btn-lg btn-success" (tap)="onSignChoice('signIn')"></Button>
+        <Button text="Inscrivez-vous !" class="btn btn-lg btn-primary" (tap)="onSignChoice('signUp')"></Button>
+    </StackLayout>
+    <StackLayout id="signInContainer" *ngIf="signType === 'signIn'">
+        <ns-sign-in></ns-sign-in>
+    </StackLayout>
+    <StackLayout id="signUpContainer" *ngIf="signType === 'signUp'">
+        <ns-sign-up></ns-sign-up>
+    </StackLayout>
+</StackLayout>
