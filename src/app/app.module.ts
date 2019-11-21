@@ -13,6 +13,12 @@ import { UserService } from "./services/user.service";
 import { SoluceListComponent } from './components/soluce/soluce-list/soluce-list.component';
 import { SingleSoluceComponent } from './components/soluce/single-soluce/single-soluce.component';
 import { SoluceFormComponent } from './components/soluce/soluce-form/soluce-form.component';
+import { QuestionListComponent } from './components/question/question-list/question-list.component';
+import { SingleQuestionComponent } from './components/question/single-question/single-question.component';
+import { QuestionFormComponent } from './components/question/question-form/question-form.component';
+import { ReplyListComponent } from './components/reply/reply-list/reply-list.component';
+import { SingleReplyComponent } from './components/reply/single-reply/single-reply.component';
+import { ReplyFormComponent } from './components/reply/reply-form/reply-form.component';
 
 // Uncomment and add to NgModule imports if you need to use the HttpClient wrapper
 // import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
@@ -35,7 +41,13 @@ import { SoluceFormComponent } from './components/soluce/soluce-form/soluce-form
         AuthComponent,
         SoluceListComponent,
         SingleSoluceComponent,
-        SoluceFormComponent
+        SoluceFormComponent,
+        QuestionListComponent,
+        SingleQuestionComponent,
+        QuestionFormComponent,
+        ReplyListComponent,
+        SingleReplyComponent,
+        ReplyFormComponent
     ],
     providers: [
         UserService
